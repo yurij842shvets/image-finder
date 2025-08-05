@@ -1,12 +1,15 @@
-import './App.css'
+import "./App.css";
+import React from "react";
+import Searchbar from "./components/Searchbar";
 
-function App() {
-
-  return (
-    <>
-      
-    </>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Searchbar />
+      </>
+    );
+  }
 }
 
-export default App
+export default App;
