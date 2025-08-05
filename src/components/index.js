@@ -1,0 +1,1 @@
+const BASE_URL = 'https://pixabay.com/api/?q=cat&page=1&key=46861510-78e6e4a0e2cd6077f83d9b926&image_type=photo&orientation=horizontal&per_page=12'
