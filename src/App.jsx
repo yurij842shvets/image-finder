@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import "./styles.css";
 import Searchbar from "./components/Searchbar";
+import ImageGallery from "./components/ImageGallery";
 
 export default class App extends React.Component {
   state = {
@@ -49,6 +50,7 @@ export default class App extends React.Component {
     return (
       <>
         <Searchbar onSubmit={this.handleSearch} />
+        <ImageGallery images={this.state.images}/>
       </>
     );
   }
